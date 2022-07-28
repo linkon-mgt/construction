@@ -325,6 +325,7 @@
     }
     #blog .blog-item {
         margin-bottom: 40px;
+        width: 90%;
     }
     /* blog part end */
 
@@ -638,6 +639,7 @@
     }
     #blog .blog-item {
         margin-bottom: 40px;
+        width: 90%;
     }
     #blog .blog-scroll {
         height: 700px;
@@ -1015,9 +1017,10 @@
     }
     #blog .blog-item {
         margin-bottom: 40px;
+        width: 90%;
     }
     #blog .blog-scroll {
-        height: 305px;
+        height: 309px;
     }
     #blog .blog-item .blog-content a {
         width: 170px;
@@ -1093,6 +1096,11 @@
 @media (min-width:543px) and (max-width:575.99px){
     #banner .banner-content .banner-content-text h1 {
         font-size: 36px;
+    }
+}
+@media (min-width:350px) and (max-width:575.99px){
+    #blog .blog-scroll {
+        height: 530px;
     }
 }
 

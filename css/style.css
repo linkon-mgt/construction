@@ -835,6 +835,8 @@ ul ol {
   border-radius: 20px;
   transition: all linear 0.3s;
   margin-bottom: 30px;
+  width: 90%;
+  margin-left: 20px;
 }
 #blog .blog-scroll .blog-item img {
   border-radius: 20px;
