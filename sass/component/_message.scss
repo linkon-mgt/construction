@@ -1,0 +1,36 @@
+/*================================================
+        |   |   |message part start |   |   |   |   |
+ ================================================*/
+#message {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/message.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include pgap(175px, 155px, 0, 0);
+
+    .message-head {
+        h3 {
+            @include font('Poppins', 54px, 500, $messagehead);
+            text-align: center;
+        }
+    }
+
+    .message-wrapper {
+        @include mgap(0,0,50px,50px);
+        .message-up {
+           p{
+            @include font('Poppins', 18px, 500, $messagehead);
+            @include pgap(0,40px,88px,88px);
+           }
+        }
+        .message-down {
+           p{
+            @include font('Poppins', 18px, 500, $messagehead);
+            padding: 0 88px;
+           }
+        }
+    }
+}
+/*================================================
+        |   |   | message part end |   |   |   |   |
+ ================================================*/

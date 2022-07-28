@@ -1,0 +1,135 @@
+/*================================================
+        |   |   | footer part start |   |   |   |   |
+ ================================================*/
+#footer {
+    @include pgap(70px, 0, 0, 0);
+
+    .footer-wrapper {
+        @include pgap(0, 70px, 0, 0);
+        border-bottom: 1px solid #f4f4f4;
+
+        .footer-line1 {
+            padding-left: 20px;
+
+            .line1-logo {
+                @include pgap(0, 30px, 0, 0);
+            }
+
+            .line1-content {
+                p {
+                    @include font('Poppins', 16px, 400, $bannerpara);
+                    @include pgap(0, 30px, 0, 0);
+                }
+
+                .line1-logo {
+                    a {
+                        .f-icon {
+                            display: inline-block;
+                            color: $normal;
+                            @include pgap(10px, 10px, 10px, 10px);
+                            background-color: $bannerbtnbg;
+                            border-radius: 10px;
+                            @include mgap(0, 0, 5px, 5px);
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-line2 {
+            @include pgap(0, 0, 50px, 0);
+
+            h4 {
+                @include font('Poppins', 18px, 600, $navcolor);
+                @include pgap(0, 40px, 0, 0);
+            }
+
+            ul {
+                padding-left: 0;
+                list-style-type: none;
+
+                li {
+                    @include pgap(0, 18px, 0, 0);
+
+                    &:last-child {
+                        padding-bottom: 0;
+                    }
+
+                    a {
+                        @include font('Poppins', 16px, 400, $bannerpara);
+                    }
+                }
+            }
+        }
+
+        .footer-line3 {
+            @include pgap(0, 0, 50px, 0);
+
+            h4 {
+                @include font('Poppins', 18px, 600, $navcolor);
+                @include pgap(0, 40px, 0, 0);
+            }
+
+            ul {
+                padding-left: 0;
+                list-style-type: none;
+
+                li {
+                    @include pgap(0, 18px, 0, 0);
+
+                    &:last-child {
+                        padding-bottom: 0;
+                    }
+
+                    a {
+                        @include font('Poppins', 16px, 400, $bannerpara);
+                    }
+                }
+            }
+        }
+
+        .footer-line4 {
+            @include pgap(0, 0, 50px, 0);
+
+            h4 {
+                @include font('Poppins', 18px, 600, $navcolor);
+                @include pgap(0, 40px, 0, 0);
+            }
+
+            form {
+                position: relative;
+
+                input {
+                    width: 100%;
+                    height: 40px;
+                    border: none;
+                    outline: none;
+                    background-color: $contactformbg;
+                    border-radius: 10px;
+
+                    &::placeholder {
+                        @include font('Poppins', 10px, 400, $bannerpara);
+                        padding-left: 15px;
+                    }
+                }
+
+                .form-icon {
+                    height: 16px;
+                    width: 16px;
+                    border-radius: 50%;
+                    border: 1px solid $bannerspan;
+                    color: $bannerspan;
+                    font-size: 10px;
+                    text-align: center;
+                    line-height: 16px;
+                    position: absolute;
+                    top: 13px;
+                    right: 20px;
+                }
+            }
+        }
+    }
+}
+/*================================================
+        |   |    footer part end |   |   |   |   |
+ ================================================*/

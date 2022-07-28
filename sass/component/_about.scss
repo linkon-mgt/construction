@@ -1,0 +1,105 @@
+/*================================================
+        |   |   |    about part start |   |   |   |   |
+ ================================================*/
+#about {
+    @include pgap(140px, 0, 0, 0);
+
+    .about-head {
+        @include pgap(0, 110px, 20px, 0);
+
+        .about-head-left {
+            p {
+                @include font('Poppins', 18px, 400, $bannerpara);
+                @include pgap(0, 30px, 0, 0);
+            }
+
+            a {
+                display: inline-block;
+                width: 214px;
+                height: 64px;
+                border: 1px solid $bannerbtnbg;
+                @include font('Poppins', 17px, 500, $bannerspan);
+                text-transform: capitalize;
+                letter-spacing: -0.5px;
+                text-align: center;
+                line-height: 64px;
+                @include mgap(0, 0, 0, 15px);
+                border-radius: 40px 5px 40px 5px;
+                transition: all linear .3s;
+
+                &:hover {
+                    background-color: $bannerbtnbg;
+                    color: $normal;
+                    box-shadow: 0 10px 10px $bannerbtnbg;
+                }
+            }
+        }
+
+        .about-head-right {
+            @include pgap(0, 0, 20px, 0);
+
+            h2 {
+                @include font('Poppins', 54px, 500, $navcolor);
+            }
+        }
+    }
+
+    .about-content {
+        .about-content-image {
+            border-radius: 10px 292px 10px 10px;
+            img{
+                border-radius: 10px 292px 10px 10px; 
+            }
+        }
+
+        .about-content-item {
+            @include pgap(0, 0, 20px, 0);
+
+            .about-content-wrapper {
+                @include mgap(0, 140px, 0, 0);
+
+                &:first-child {
+                    margin-top: 110px;
+                }
+                &:last-child {
+                    margin-bottom: 110px;
+                }
+
+                .about-item-left {
+                    height: 102px;
+                    width: 102px;
+                    border-radius: 5px 38px 5px 38px;
+                    background-color: $bannerbtnbg;
+                    position: relative;
+
+                    .about-left-text {
+                        position: absolute;
+                        top: -40px;
+                        right: -25px;
+
+                        h4 {
+                            @include font('Poppins', 72px, 600, $navcolor);
+                        }
+                    }
+                }
+
+                .about-second {
+                    background-color: $aboutbg;
+                }
+
+                .about-third {
+                    background-color: $aboutbg2;
+                }
+
+                .about-item-right {
+                    p {
+                        @include font('Poppins', 18px, 400, $bannerpara);
+                    }
+                }
+            }
+        }
+    }
+}
+/*================================================
+        |   |   |    about part end |   |   |   |   |
+ ================================================*/

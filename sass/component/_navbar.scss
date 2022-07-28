@@ -1,0 +1,92 @@
+/*================================================
+        |   |   |navbar part start|   |   |   |   |
+ ================================================*/
+.navbar {
+    @include pgap(0, 0, 0, 0);
+    z-index: 999;
+
+    .navbar-brand {
+        @include pgap(70px, 70px, 0, 0);
+    }
+    .btn-primary {
+        color: #000;
+        background-color: transparent;
+        border-color: #000;
+    }
+    .navbar-nav {
+        .nav-item {
+            @include pgap(0, 0, 18px, 18px);
+
+            .nav-link {
+                @include pgap(0, 0, 0, 0);
+                @include font('Poppins', 18px, 400, $navcolor);
+                text-transform: capitalize;
+                transition: all linear .3s;
+                position: relative;
+                &::before{
+                    position: absolute;
+                    display: block;
+                    content: attr(title);
+                    font-weight: 600;
+                    height: 1px;
+                    color: transparent;
+                    overflow: hidden;
+                    visibility: hidden;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    bottom: -5px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    height: 3px;
+                    width: 3px;
+                    background-color: $navcolor;
+                    opacity: 0;
+                    transition: all linear .3s;
+                }
+
+                &:hover {
+                    text-shadow: 1px 0px 0px currentColor;
+
+                    &::after {
+                        opacity: 1;
+                    }
+                }
+            }
+
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+    }
+}
+/* sticky menu css start */
+.sticky-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #99C4C8;
+    animation: sticky 1s linear;
+    z-index: 999;
+    padding: 15px 0;
+}
+
+@keyframes sticky {
+    0% {
+        top: -50px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+.scroll-logo {
+    padding: 15px 0 !important;
+}
+/* sticky menu css end */
+/*================================================
+        |   |   | navbar part end |   |   |   |   |
+ ================================================*/

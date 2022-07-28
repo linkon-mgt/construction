@@ -1,0 +1,1115 @@
+/* =============================================
+|   |   |responsibe for xtra xtra large device start
+================================================ */
+@media (min-width:1400px){
+/* nothing need to be modified in this device */
+}
+/* =============================================
+|   |   |responsibe for xtra xtra large device end
+================================================ */
+
+
+/* =============================================
+|   |   |responsibe for xtra large device start
+================================================ */
+@media (min-width:1200px) and (max-width:1399px){
+/* nothing need to be modified in this device */
+}
+/* =============================================
+|   |   |responsibe for xtra large device end
+================================================ */
+
+
+/* =============================================
+|   |   |responsibe for large device start
+================================================ */
+@media (min-width:992px) and (max-width:1199px){
+
+    /* banner part start */
+    #banner .banner-content .banner-content-text h1 {
+        font-size: 54px;
+    }
+    #banner .banner-content .banner-content-text .banner-content-button .banner-button a {
+        width: 190px;
+    }
+    #banner .banner-content .banner-content-text {
+        padding-top: 10px;
+        padding-bottom: 52px;
+    }
+    #banner .banner-content .banner-content-text p {
+        padding-bottom: 15px;
+        
+    }
+    #banner .banner-content .banner-content-counter .banner-counter-item h4 {
+        font-size: 16px;
+    }
+    /* banner part end */
+
+
+     /* about part start */
+    #about .about-head .about-head-right h2 {
+        font-size: 45px;
+    }
+    /* about part end */
+
+    /* team part end */
+    #team .team-heading h2 {
+        font-size: 47px;
+    }
+    #team .team-heading p {
+        font-size: 17px;
+    }
+    /* team part end */
+
+
+     /* message part start */
+    #message .message-head h3 {
+        font-size: 47px;
+        text-align: center;
+    }
+    /* message part end */
+
+
+     /* contact part start */
+    #contact .contact-form .contact-name {
+        padding-left: 20px;
+    }
+    #contact .contact-form .contact-email {
+        padding-left: 20px;
+    }
+    #contact .contact-form .contact-subject {
+        padding-left: 20px;
+    }
+    #contact .contact-pic-wrapper .contact-image {
+        right: -50px;
+
+    }
+    #contact .contact-pic-wrapper .contact-image img {
+       width: 100%;
+    }
+    /* contact part end */
+
+}
+/* =============================================
+|   |   |responsibe for large device end
+================================================ */
+
+
+/* =============================================
+|   |   |responsibe for medium device start
+================================================ */
+@media (min-width:768px) and (max-width:991px){
+     /* navbar part start */
+     .navbar .navbar-brand {
+        padding: 55px 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .btn-check:focus+.btn-primary,
+    .btn-primary:focus {
+        box-shadow: 0 0 0 0 transparent;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link::after {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-item:last-child {
+        padding-right: 18px;
+    }
+    .sticky-menu {
+        padding: 25px 0;
+    }
+    /* navbar part end */
+
+    /* banner part start */
+    #banner {
+        padding-bottom: 80px;
+    }
+    #banner .banner-content {
+        padding-left: 0px;
+    }
+    #banner .banner-content .banner-content-text h1 {
+        font-size: 57px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    #banner .banner-content .banner-content-text p {
+       text-align: center;
+    }
+
+    #banner .banner-content .banner-content-text .banner-content-button .banner-button {
+        text-align: center;
+    }
+
+    #banner .banner-content .banner-content-text .banner-content-button .banner-button a {
+        margin-right: 15px;
+    }
+
+    #banner .banner-image-wrapper .banner-image {
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    .banner-content-counter {
+        margin-bottom: 30px;
+    }
+
+    .banner-counter-item {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    #banner .banner-content .banner-content-counter .banner-counter-item .banner-counter-heading {
+        display: inline-block;
+    }
+    #banner .banner-image-wrapper::before {
+      display: none;
+    }
+    #banner .banner-image-wrapper::after {
+      display: none;
+    }
+    /* banner part end */
+
+
+     /* brand part start */
+     #brand .brand-wrapper {
+        padding-top: 60px;
+        padding-bottom: 0;
+        border-radius: 0;
+    }
+    .brand-item{
+        margin-bottom: 80px;
+    }
+    /* brand part end */
+
+     /* about part start */
+     #about {
+        padding-top: 105px;
+    }
+    #about .about-head {
+        padding-left: 0px;
+    }
+    .about-head-left{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #about .about-head .about-head-left a {
+        margin-right: 0;
+    }
+    #about .about-head .about-head-right {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    #about .about-head .about-head-right h2 {
+        font-size: 34px;
+        text-align: center;
+    }
+    #about .about-content .about-content-item {
+        padding-left: 0;
+    }
+    #about .about-content .about-content-item .about-content-wrapper {
+        margin-bottom: 80px;
+    }
+    #about .about-content .about-content-item .about-content-wrapper .about-item-left {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    #about .about-content .about-content-item .about-content-wrapper .about-item-left .about-left-text {
+        top: -30px;
+        right: -20px;
+    }
+    #about .about-content .about-content-item .about-content-wrapper .about-item-right p {
+        text-align: center;
+    }
+    #about .about-content .about-content-item .about-content-wrapper:last-child {
+        margin-bottom:0;
+    }
+    /* about part end */
+
+
+    /* team part end */
+    #team {
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+    #team .team-heading {
+        padding-bottom: 65px;
+    }
+    #team .team-btn {
+        margin-top: 0px;
+    }
+    /* team part end */
+
+
+     /* message part start */
+     #message {
+        padding-top: 150px;
+        padding-bottom: 140px;
+    }
+    #message .message-head h3 {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    #message .message-wrapper {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .message-svg{
+        height: 55px;
+        width: 80px;
+    }
+    #message .message-wrapper .message-up p {
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #message .message-wrapper .message-down p {
+        font-size: 18px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    /* message part end */
+
+
+     /* contact part start */
+     #contact {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #contact .contact-form .contact-name {
+        padding-left: 20px;
+    }
+    #contact .contact-form .contact-email {
+        padding-left: 20px;
+    }
+    #contact .contact-form .contact-subject {
+        padding-left: 20px;
+    }
+    #contact .contact-form{
+        text-align: center;
+    }
+    #contact .contact-form button {
+        margin-right: 0;
+    }
+    #contact .contact-pic-wrapper {
+      margin-top: 60px;
+    }
+    #contact .contact-pic-wrapper .contact-image {
+        right: 0;
+        width: 100%;
+        position: relative;
+
+    }
+    #contact .contact-pic-wrapper .contact-image img {
+       display: block;
+       width: 100%;
+    }
+    /* contact part end */
+
+
+     /* blog part start */
+     #blog {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #blog .blog-scroll {
+        position: relative;
+        height: 642px;
+    }
+    #blog .blog-item {
+        margin-bottom: 40px;
+    }
+    /* blog part end */
+
+
+    /* subscribe part start */
+    #subscribe .subscribe-content h2 {
+        font-size: 45px;
+    }
+    /* subscribe part end */
+
+
+    /* footer part start */
+    #footer {
+        padding-top: 50px;
+    }
+    #footer .footer-wrapper {
+        padding-bottom: 50px;
+    }
+    #footer .footer-wrapper .footer-line1 {
+        padding-left: 0px;
+        margin-bottom: 30px;
+    }
+    #footer .footer-wrapper .footer-line1 .line1-logo {
+        padding-bottom: 20px;
+    }
+    #footer .footer-wrapper .footer-line1 .line1-content p {
+        padding-bottom: 20px;
+    }
+    #footer .footer-wrapper .footer-line2 {
+        padding-left: 10px;
+    }
+    #footer .footer-wrapper .footer-line3 {
+        padding-left: 0;
+        margin-top: 30px;
+       
+    }
+    #footer .footer-wrapper .footer-line4 {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    #footer .footer-wrapper .footer-line4 form input {
+        padding-left: 15px;
+    }
+    /* footer part end */
+}
+/* =============================================
+|   |   |responsibe for medium device end
+================================================ */
+
+
+/* =============================================
+|   |   |responsibe for small device start
+================================================ */
+@media (min-width:576px) and (max-width:767px){
+    /* navbar part start */
+    .navbar .navbar-brand {
+        padding: 45px 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .btn-check:focus+.btn-primary,
+    .btn-primary:focus {
+        box-shadow: 0 0 0 0 transparent;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link::after {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-item:last-child {
+        padding-right: 18px;
+    }
+
+    .scroll-logo {
+        padding: 8px 0 !important;
+    }
+    .sticky-menu {
+        padding: 15px 0;
+    }
+
+    /* navbar part end */
+
+    /* banner part start */
+    #banner {
+        padding-bottom: 50px;
+    }
+    #banner .banner-content {
+        padding-left: 0px;
+    }
+
+    #banner .banner-content .banner-content-text {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    #banner .banner-content .banner-content-text h1 {
+        font-size: 42px;
+        letter-spacing: 0px;
+        padding-bottom: 36px;
+        text-align: center;
+    }
+
+    #banner .banner-content .banner-content-text .banner-content-button .banner-button {
+        text-align: center;
+    }
+
+    #banner .banner-content .banner-content-text .banner-content-button .banner-button a {
+        width: 180px;
+        height: 60px;
+        line-height: 60px;
+        margin-right: 15px;
+    }
+
+    #banner .banner-image-wrapper .banner-image {
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    .banner-content-counter {
+        margin-bottom: 30px;
+    }
+
+    .banner-counter-item {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    #banner .banner-content .banner-content-counter .banner-counter-item .banner-counter-heading {
+        display: inline-block;
+    }
+    #banner .banner-image-wrapper::before {
+      display: none;
+    }
+    #banner .banner-image-wrapper::after {
+      display: none;
+    }
+    /* banner part end */
+
+
+    /* brand part start */
+    #brand .brand-wrapper {
+        padding-top: 60px;
+        padding-bottom: 0;
+        border-radius: 0;
+    }
+    .brand-item{
+        margin-bottom: 60px;
+    }
+    /* brand part end */
+
+     /* about part start */
+     #about {
+        padding-top: 90px;
+    }
+    #about .about-head {
+        padding-bottom: 80px;
+        padding-left: 0px;
+    }
+    .about-head-left{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #about .about-head .about-head-left a {
+        margin-right: 0;
+    }
+    #about .about-head .about-head-right {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    #about .about-head .about-head-right h2 {
+        font-size: 34px;
+        text-align: center;
+    }
+    #about .about-content .about-content-item {
+        padding-left: 0;
+    }
+    #about .about-content .about-content-item .about-content-wrapper:first-child {
+        margin-top: 100px;
+    }
+    #about .about-content .about-content-item .about-content-wrapper {
+        margin-bottom: 80px;
+    }
+    #about .about-content .about-content-item .about-content-wrapper .about-item-left {
+        height: 90px;
+        width: 90px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    #about .about-content .about-content-item .about-content-wrapper .about-item-left .about-left-text {
+        top: -30px;
+        right: -20px;
+    }
+    #about .about-content .about-content-item .about-content-wrapper .about-item-left .about-left-text h4 {
+        font-size: 65px;
+    }
+    #about .about-content .about-content-item .about-content-wrapper .about-item-right p {
+        font-size: 16px;
+        text-align: center;
+    }
+    #about .about-content .about-content-item .about-content-wrapper:last-child {
+        margin-bottom: 80px;
+    }
+    /* about part end */
+
+     /* team part end */
+     #team {
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+    #team .team-heading {
+        padding-bottom: 65px;
+    }
+    #team .team-heading h2 {
+        font-size: 45px;
+    }
+    #team .team-btn {
+        margin-top: 0px;
+    }
+    /* team part end */
+
+
+     /* message part start */
+     #message {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    #message .message-head h3 {
+        font-size: 48px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    #message .message-wrapper {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .message-svg{
+        height: 45px;
+        width: 70px;
+    }
+    #message .message-wrapper .message-up p {
+        font-size: 16px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #message .message-wrapper .message-down p {
+        font-size: 16px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    /* message part end */
+
+
+     /* contact part start */
+     #contact {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    #contact .contact-head h3 {
+        font-size: 42px;
+    }
+    #contact .contact-head p {
+        font-size: 16px;
+    }
+    #contact .contact-head {
+        padding-bottom: 60px;
+    }
+    #contact .contact-form .contact-name {
+        height: 55px;
+        padding-left: 20px;
+    }
+    #contact .contact-form .contact-email {
+        height: 55px;
+        padding-left: 20px;
+    }
+    #contact .contact-form .contact-subject {
+        height: 55px;
+        padding-left: 20px;
+    }
+    #contact .contact-form{
+        text-align: center;
+    }
+    #contact .contact-form button {
+        margin-right: 0;
+    }
+    #contact .contact-pic-wrapper {
+      margin-top: 60px;
+    }
+    #contact .contact-pic-wrapper .contact-image {
+        right: 0;
+        width: 100%;
+        position: relative;
+
+    }
+    #contact .contact-pic-wrapper .contact-image img {
+       display: block;
+       width: 100%;
+    }
+    /* contact part end */
+
+
+     /* blog part start */
+     #blog {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #blog .blog-item {
+        margin-bottom: 40px;
+    }
+    #blog .blog-scroll {
+        height: 700px;
+    }
+    #blog .blog-item .blog-content a {
+        width: 214px;
+        height: 64px;
+        line-height: 64px;
+    }
+    /* blog part end */
+
+
+    /* subscribe part start */
+    #subscribe .subscribe-content h2 {
+        font-size: 45px;
+    }
+    /* subscribe part end */
+
+
+    /* footer part start */
+    #footer {
+        padding-top: 50px;
+    }
+    #footer .footer-wrapper {
+        padding-bottom: 50px;
+    }
+    #footer .footer-wrapper .footer-line1 {
+        padding-left: 0px;
+        margin-bottom: 30px;
+    }
+    #footer .footer-wrapper .footer-line1 .line1-logo {
+        padding-bottom: 20px;
+    }
+    #footer .footer-wrapper .footer-line1 .line1-content p {
+        padding-bottom: 20px;
+    }
+    #footer .footer-wrapper .footer-line2 {
+        padding-left: 10px;
+    }
+    #footer .footer-wrapper .footer-line3 {
+        padding-left: 0;
+        margin-top: 30px;
+       
+    }
+    #footer .footer-wrapper .footer-line4 {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    #footer .footer-wrapper .footer-line4 form input {
+        padding-left: 15px;
+    }
+    /* footer part end */
+
+}
+/* =============================================
+|   |   |responsibe for small device end
+================================================ */
+
+
+
+/* =============================================
+|   |   |responsibe for xtra small device start
+================================================ */
+@media(max-width:575.99px) {
+
+    /* navbar part start */
+    .navbar .navbar-brand {
+        padding: 30px 0;
+    }
+
+    .navbar-brand img {
+        transform: scale(.9);
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .btn-check:focus+.btn-primary,
+    .btn-primary:focus {
+        box-shadow: 0 0 0 0 transparent;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link::after {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-item:last-child {
+        padding-right: 18px;
+    }
+
+    .scroll-logo {
+        padding: 8px 0 !important;
+    }
+    .sticky-menu {
+        padding: 8px 0;
+    }
+
+    /* navbar part end */
+
+
+    /* banner part start */
+    #banner {
+        padding-bottom: 50px;
+    }
+    #banner .banner-content {
+        padding-left: 0px;
+    }
+
+    #banner .banner-content .banner-content-text {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    #banner .banner-content .banner-content-text h1 {
+        font-size: 24px;
+        letter-spacing: 0px;
+        padding-bottom: 36px;
+        text-align: center;
+    }
+
+    #banner .banner-content .banner-content-text p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-bottom: 30px;
+    }
+
+    #banner .banner-content .banner-content-text .banner-content-button .banner-button {
+        text-align: center;
+    }
+
+    #banner .banner-content .banner-content-text .banner-content-button .banner-button a {
+        width: 125px;
+        height: 50px;
+        font-size: 14px;
+        letter-spacing: -0.5px;
+        text-align: center;
+        line-height: 50px;
+        margin-right: 15px;
+    }
+
+    #banner .banner-image-wrapper .banner-image {
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    .banner-content-counter {
+        margin-bottom: 30px;
+    }
+
+    .banner-counter-item {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    #banner .banner-content .banner-content-counter .banner-counter-item .banner-counter-heading {
+        display: inline-block;
+    }
+    #banner .banner-image-wrapper::before {
+      display: none;
+    }
+    #banner .banner-image-wrapper::after {
+      display: none;
+    }
+    /* banner part end */
+
+
+    /* brand part start */
+    #brand .brand-wrapper {
+        padding-top: 60px;
+        padding-bottom: 0;
+        border-radius: 0;
+    }
+    .brand-item{
+        margin-bottom: 60px;
+    }
+    /* brand part end */
+
+
+    /* about part start */
+    #about {
+        padding-top: 60px;
+    }
+    #about .about-head {
+        padding-bottom: 50px;
+        padding-left: 0px;
+    }
+    .about-head-left{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #about .about-head .about-head-left p {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    #about .about-head .about-head-left a {
+        width: 170px;
+        height: 50px;
+        font-size: 14px;
+        line-height: 50px;
+        margin-right: 0;
+    }
+    #about .about-head .about-head-right {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    #about .about-head .about-head-right h2 {
+        font-size: 31px;
+        text-align: center;
+    }
+    #about .about-content .about-content-item {
+        padding-left: 0;
+    }
+    #about .about-content .about-content-item .about-content-wrapper:first-child {
+        margin-top: 100px;
+    }
+    #about .about-content .about-content-item .about-content-wrapper {
+        margin-bottom: 80px;
+    }
+    #about .about-content .about-content-item .about-content-wrapper .about-item-left {
+        height: 80px;
+        width: 80px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    #about .about-content .about-content-item .about-content-wrapper .about-item-left .about-left-text {
+        top: -30px;
+        right: -20px;
+    }
+    #about .about-content .about-content-item .about-content-wrapper .about-item-left .about-left-text h4 {
+        font-size: 60px;
+    }
+    #about .about-content .about-content-item .about-content-wrapper .about-item-right p {
+        font-size: 14px;
+        text-align: center;
+    }
+    #about .about-content .about-content-item .about-content-wrapper:last-child {
+        margin-bottom: 80px;
+    }
+    /* about part end */
+
+
+    /* team part end */
+    #team {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    #team .team-heading {
+        padding-bottom: 50px;
+    }
+    #team .team-heading h2 {
+        font-size: 31px;
+    }
+    #team .team-heading p {
+        font-size: 16px;
+    }
+    #team .team-btn {
+        margin-top: 0px;
+    }
+    /* team part end */
+
+
+    /* message part start */
+    #message {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #message .message-head h3 {
+        font-size: 31px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    #message .message-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .message-svg{
+        height: 30px;
+        width: 50px;
+    }
+    #message .message-wrapper .message-up p {
+        font-size: 14px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #message .message-wrapper .message-down p {
+        font-size: 14px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    /* message part end */
+
+
+
+    /* contact part start */
+    #contact {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    #contact .contact-head h3 {
+        font-size: 42px;
+    }
+    #contact .contact-head p {
+        font-size: 16px;
+    }
+    #contact .contact-head {
+        padding-bottom: 60px;
+    }
+    #contact .contact-form .contact-name {
+        height: 45px;
+        padding-left: 20px;
+    }
+    #contact .contact-form .contact-name::placeholder {
+        font-size: 14px;
+    }
+    #contact .contact-form .contact-email {
+        height: 45px;
+        padding-left: 20px;
+    }
+    #contact .contact-form .contact-email::placeholder {
+       font-size: 14px;
+    }
+    #contact .contact-form .contact-subject {
+        height: 45px;
+        padding-left: 20px;
+    }
+    #contact .contact-form .contact-subject::placeholder {
+        font-size: 14px;
+      
+    }
+    #contact .contact-form #contact-message {
+        height: 160px;
+        font-size: 14px;
+    }
+    #contact .contact-form{
+        text-align: center;
+    }
+    #contact .contact-form button {
+        width: 160px;
+        height: 50px;
+        font-size: 14px;
+        line-height: 50px;
+        margin-right: 0;
+    }
+    #contact .contact-pic-wrapper {
+      margin-top: 60px;
+    }
+    #contact .contact-pic-wrapper .contact-image {
+        right: 0;
+        width: 100%;
+        position: relative;
+
+    }
+    #contact .contact-pic-wrapper .contact-image img {
+       display: block;
+       width: 100%;
+    }
+    /* contact part end */
+
+
+
+    /* blog part start */
+    #blog {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #blog .blog-head h3 {
+        font-size: 40px;
+    }
+    #blog .blog-head p {
+        font-size: 15px;
+    }
+    #blog .blog-item {
+        margin-bottom: 40px;
+    }
+    #blog .blog-scroll {
+        height: 615px;
+    }
+    #blog .blog-item .blog-content a {
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+    }
+    /* blog part end */
+
+
+    /* subscribe part start */
+    #subscribe {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #subscribe .subscribe-content h2 {
+        font-size: 35px;
+        padding-bottom: 25px;
+    }
+    #subscribe .subscribe-content p {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+    #subscribe .subscribe-content .sunscribe-button {
+        width: 160px;
+        height: 50px;
+        line-height: 50px;
+    }
+    /* subscribe part end */
+
+
+    /* footer part start */
+    #footer {
+        padding-top: 50px;
+    }
+    #footer .footer-wrapper {
+        padding-bottom: 50px;
+    }
+    #footer .footer-wrapper .footer-line1 {
+        padding-left: 0px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #footer .footer-wrapper .footer-line1 .line1-logo {
+        padding-bottom: 20px;
+    }
+    #footer .footer-wrapper .footer-line1 .line1-content p {
+        padding-bottom: 20px;
+    }
+    #footer .footer-wrapper .footer-line2 {
+        padding-left: 30px;
+    }
+    #footer .footer-wrapper .footer-line3 {
+        padding-left: 25px;
+    }
+    #footer .footer-wrapper .footer-line4 {
+        padding-left: 0;
+        margin-top: 30px;
+        text-align: center;
+    }
+    #footer .footer-wrapper .footer-line4 form input {
+        padding-left: 15px;
+    }
+    /* footer part end */
+
+
+    /* copyright part start */
+    #copyright {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    /* copyright part end */
+}
+@media (min-width:543px) and (max-width:575.99px){
+    #banner .banner-content .banner-content-text h1 {
+        font-size: 36px;
+    }
+}
+
+/* =============================================
+|   |   |responsibe for xtra small device end
+================================================ */
+
+
+/* =============================================
+|   |   |Back to top button responsive start
+================================================ */
+@media only screen and (max-width: 767px) {
+    .bottom-to-top {
+        display: none !important;
+    }
+}
+
+/* =============================================
+|   |   |Back to top button responsive end
+================================================ */

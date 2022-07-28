@@ -1,0 +1,49 @@
+/*================================================
+        |   |   |subscribe part start |   |   |   |   |
+ ================================================*/
+#subscribe{
+    @include pgap(70px,70px,0,0);
+    .subscribe-content{
+        h2{
+            @include font('Poppins', 54px, 500, $navcolor);
+            @include pgap(0,40px,0,0);
+        }
+        p{
+            @include font('Roboto', 20px, 400, $bannerpara);
+            @include pgap(0,40px,0,0);
+        }
+        .sunscribe-button{
+            display: inline-block;
+            width: 220px;
+            height: 56px;
+            border: 1px solid $bannerbtnbg;
+            letter-spacing: -0.5px;
+            text-align: center;
+            line-height: 64px;
+            border-radius: 40px 5px 40px 5px;
+            transition: all linear .3s;
+            a{
+                @include font('Poppins', 17px, 500, $navcolor);
+                text-transform: uppercase;
+                margin-right: 10px;
+                transition: all linear .3s;
+            }
+            .subscribe-icon{
+                color:  $navcolor;
+            }
+            &:hover {
+                background-color: $bannerbtnbg;
+                box-shadow: 0 10px 10px $bannerbtnbg;
+                a{
+                    color: $normal;
+                }
+                .subscribe-icon{
+                    color: $normal;
+                }
+            }
+        }
+    }
+}
+/*================================================
+        |   |   |subscribe part end |   |   |   |   |
+ ================================================*/

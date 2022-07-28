@@ -1,0 +1,107 @@
+/*================================================
+        |   |   |    blog part start |   |   |   |   |
+ ================================================*/
+#blog {
+    @include pgap(70px, 70px, 0, 0);
+
+    .blog-head {
+        @include pgap(0, 80px, 0, 0);
+
+        h3 {
+            @include font('Poppins', 54px, 600, $navcolor);
+            @include pgap(0, 20px, 0, 0);
+        }
+
+        p {
+            @include font('Roboto', 20px, 400, $bannerpara);
+        }
+    }
+
+  .blog-scroll{
+    position: relative;
+    height: 536px;
+    .blog-item {
+        position: relative;
+        border-radius: 20px;
+        transition: all linear .3s;
+        margin-bottom: 30px;
+        img {
+            border-radius: 20px;
+        }
+
+        .blog-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            transition: all linear 0.3s;
+            border-radius: 20px;
+            opacity: 0;
+        }
+        .blog-content{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            z-index: 1;
+            transition: all linear 0.3s;
+            h4{
+                @include font('Source Sans Pro', 27px, 700, $normal);  
+                @include pgap(0,20px,0,0);
+            }
+            p{
+                @include font('Source Sans Pro', 16px, 400, $normal);  
+                @include pgap(0,45px,0,0);  
+            }
+            a {
+                display: inline-block;
+                width: 214px;
+                height: 64px;
+                border: 1px solid $bannerbtnbg;
+                @include font('Poppins', 17px, 500, $messagehead);
+                text-transform: capitalize;
+                letter-spacing: -0.5px;
+                text-align: center;
+                line-height: 64px;
+                @include mgap(0, 40px, 0, 0);
+                border-radius: 40px 5px 40px 5px;
+                display: none;
+                transition: display linear 1s;
+
+                &:hover {
+                    background-color: $bannerbtnbg;
+                    color: $normal;
+                }
+            }
+        }
+        &:hover {
+            .blog-overlay {
+               opacity: 1;
+            }
+            .blog-content{
+                a{
+                   display:inline-block;
+                   animation: fade_in_show 1s;
+                   @keyframes fade_in_show {
+                    0% {
+                         opacity: 0;
+                         transform: scale(0)
+                    }
+               
+                    100% {
+                         opacity: 1;
+                         transform: scale(1)
+                    }
+               }
+                }
+            }
+        }
+    }
+
+  }
+}
+/*================================================
+        |   |   |    blog part end |   |   |   |   |
+ ================================================*/

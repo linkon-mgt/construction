@@ -1,0 +1,115 @@
+/*================================================
+        |   |   |team part start |   |   |   |   |
+ ================================================*/
+#team {
+    @include mgap(140px, 140px, 0, 0);
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        right: 0;
+        width: 8px;
+        height: 200px;
+        background-color: $bannerbtnbg;
+    }
+
+    .team-heading {
+        @include pgap(0, 80px, 0, 0);
+
+        h2 {
+            @include font('Poppins', 54px, 600, $navcolor);
+            padding-bottom: 15px;
+        }
+
+        p {
+            @include font('Roboto', 20px, 400, $bannerpara);
+        }
+    }
+
+    .team-item {
+        @include pgap(30px, 60px, 30px, 30px);
+        box-shadow: 0 0 30px 3px #F2F7F9;
+
+        .team-icon {
+            @include pgap(0, 20px, 0, 0);
+
+            .about-start {
+                color: $start;
+                font-size: 24px
+            }
+
+            .about-ellipis {
+                color: $navcolor;
+                font-size: 22px;
+                // margin-left: 258px;
+            }
+        }
+
+        .team-pic {
+            @include pgap(0, 25px, 0, 0);
+            img{
+                display: inline-block;
+            }
+
+            h4 {
+                @include font('Poppins', 24px, 500, $navcolor);
+                padding-top: 20px;
+            }
+
+            p {
+                @include font('Poppins', 12px, 500, $bannerpara);
+            }
+        }
+
+        .team-text {
+            h5 {
+                @include font('Poppins', 18px, 500, $bannerpara);
+            }
+
+            p {
+                @include font('Poppins', 17px, 500, $bannerspan);
+            }
+        }
+    }
+
+    .team-btn {
+        @include mgap(80px, 0, 0, 0);
+        width: 120px;
+        height: 66px;
+        @include pgap(0, 0, 15px, 15px);
+        border-radius: 30px;
+        box-shadow: 0 0 30px #F2F7F9;
+
+        .team-arrow-left {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            line-height: 40px;
+            border: 1px solid $bannerbtnbg;
+            transition: all linear .3s;
+
+            &:hover {
+                background-color: $bannerbtnbg;
+            }
+
+        }
+
+        .team-arrow-right {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            line-height: 40px;
+            border: 1px solid $bannerbtnbg;
+            transition: all linear .3s;
+
+            &:hover {
+                background-color: $bannerbtnbg;
+            }
+        }
+    }
+}
+/*================================================
+        |   |   | team part end |   |   |   |   |
+ ================================================*/
